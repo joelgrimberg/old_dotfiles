@@ -19,4 +19,4 @@ source $DOTFILES/homebrew/install.sh
 
 source $DOTFILES/osx/brew.sh
 source $DOTFILES/osx/brew-cask.sh
-source $DOTFILES/node/node.sh
+source $DOTFILES/node/install.sh
