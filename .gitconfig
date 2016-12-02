@@ -1,11 +1,4 @@
-[filter "lfs"]
-	clean = git-lfs clean %f
-	smudge = git-lfs smudge %f
-	required = true
+[core]
+	excludesfile = /Users/joel/.dotfiles/git/.gitignore_global
 [user]
 	name = joelgrimberg
-	email = github@joelgrimberg.nl
-[github]
-    user = "your-name-here"
-[alias]
-    hub-new-repo = "!REPO=$(basename $PWD) GHUSER=$(git config --get github.user); curl -u $GHUSER https://api.github.com/user/repos -d {\\\"name\\\":\\\"$REPO\\\"} --fail; git remote add origin git@github.com:$GHUSER/$REPO.git; git push origin master"
