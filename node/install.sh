@@ -12,6 +12,9 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 echo "removing usr/local/lib/node_modules..."
 rm -rf /usr/local/lib/node_modules
 
+sudo rm -rf ~/.npm
+sudo rm -rf ~/.npm-packages/
+
 echo "brew uninstall nodec..."
 brew uninstall node
 

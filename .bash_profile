@@ -1,5 +1,5 @@
 #PATH
-export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:$HOME/bin
+PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:$HOME/bin:/Users/joel/.npm-packages/bin:$PATH
 
 #add Homebrew’s sbin to PATH
 export PATH=/usr/local/sbin:$PATH
@@ -13,6 +13,7 @@ export PATH=$HOME/code/drivers:$PATH
 git config --global core.excludesfile ~/.dotfiles/git/.gitignore_global
 . ~/.dotfiles/.aliases
 . ~/.dotfiles/.prompt
+. ~/.dotfiles/.env
 
 test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
 
