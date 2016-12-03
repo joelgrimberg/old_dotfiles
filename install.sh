@@ -20,3 +20,5 @@ source $DOTFILES/homebrew/install.sh
 source $DOTFILES/osx/brew.sh
 source $DOTFILES/osx/brew-cask.sh
 source $DOTFILES/node/install.sh
+source $DOTFILES/system/symlinks.sh
+
