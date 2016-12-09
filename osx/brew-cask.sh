@@ -12,6 +12,7 @@ brew cask install iterm2
 brew cask install mamp
 brew cask install vmware-fusion
 brew cask install vmware-horizon-client
+brew cask install intellij-idea-ce
 
 brew cask install wacom-intuos-tablet
 

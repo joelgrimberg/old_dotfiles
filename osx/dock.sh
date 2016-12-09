@@ -4,12 +4,7 @@ defaults delete com.apple.dock; killall Dock
 
 #Airmail3.app
 defaults write com.apple.dock persistent-apps -array-add '<dict><key>tile-data</key><dict><key>file-data</key><dict><key>_CFURLString</key>
-<string>/Applications/Agenda.app</string><key>_CFURLStringType</key>
-<integer>0</integer></dict></dict></dict>'
-
-#Agenda.app
-defaults write com.apple.dock persistent-apps -array-add '<dict><key>tile-data</key><dict><key>file-data</key><dict><key>_CFURLString</key>
-<string>/Applications/Agenda.app</string><key>_CFURLStringType</key>
+<string>/Applications/Airmail 3.app</string><key>_CFURLStringType</key>
 <integer>0</integer></dict></dict></dict>'
 
 #Agenda.app
@@ -41,6 +36,57 @@ defaults write com.apple.dock persistent-apps -array-add '<dict><key>tile-data</
 defaults write com.apple.dock persistent-apps -array-add '<dict><key>tile-data</key><dict><key>file-data</key><dict><key>_CFURLString</key>
 <string>/Applications/Slack.app</string><key>_CFURLStringType</key>
 <integer>0</integer></dict></dict></dict>'
+
+##FirefoxDevEdition
+defaults write com.apple.dock persistent-apps -array-add '<dict><key>tile-data</key><dict><key>file-data</key><dict><key>_CFURLString</key>
+<string>/Applications/FirefoxDeveloperEdition.app</string><key>_CFURLStringType</key>
+<integer>0</integer></dict></dict></dict>'
+
+
+#Firefox
+defaults write com.apple.dock persistent-apps -array-add '<dict><key>tile-data</key><dict><key>file-data</key><dict><key>_CFURLString</key>
+<string>/Applications/Firefox.app</string><key>_CFURLStringType</key>
+<integer>0</integer></dict></dict></dict>'
+
+#Google Chrome
+defaults write com.apple.dock persistent-apps -array-add '<dict><key>tile-data</key><dict><key>file-data</key><dict><key>_CFURLString</key>
+<string>/Applications/Google Chrome.app</string><key>_CFURLStringType</key>
+<integer>0</integer></dict></dict></dict>'
+
+#Google Chrome Canary
+defaults write com.apple.dock persistent-apps -array-add '<dict><key>tile-data</key><dict><key>file-data</key><dict><key>_CFURLString</key>
+<string>/Applications/Google Chrome Canary.app</string><key>_CFURLStringType</key>
+<integer>0</integer></dict></dict></dict>'
+
+#Google Chrome Canary.app
+
+##Safari
+
+##Safari Technology Preview
+
+##Simulator
+
+##Reeder
+
+##Numbers
+
+##Pages
+
+##VMWare Fusion Pro
+
+##Franz ?
+
+##iTerm
+
+##littleSnitch
+
+##IBM Notes
+
+##ATOM
+
+##IntelliJ
+
+
 
 #Mindnode.app
 defaults write com.apple.dock persistent-apps -array-add '<dict><key>tile-data</key><dict><key>file-data</key><dict><key>_CFURLString</key>
