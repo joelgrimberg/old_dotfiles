@@ -50,6 +50,7 @@ brew tap homebrew/php
 brew install php55 --with-gmp
 
 # Dev tools
+brew install ruby
 brew install bash
 brew install docker
 brew install docker-compose
