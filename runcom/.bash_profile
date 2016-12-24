@@ -1,5 +1,5 @@
 #PATH
-export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:$HOME/bin
+export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:$HOME/bin:$PATH
 
 #add Homebrew’s sbin to PATH
 export PATH=/usr/local/sbin:$PATH
