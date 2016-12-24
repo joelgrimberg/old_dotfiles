@@ -22,3 +22,8 @@ source $DOTFILES/osx/brew-cask.sh
 source $DOTFILES/node/install.sh
 source $DOTFILES/system/symlinks.sh
 
+#load bashrc / env / aliases
+source $DOTFILES/.env
+source $DOTFILES/.aliases
+source $DOTFILES/runcom/.bash_profile
+source $DOTFILES/runcom/.functions
