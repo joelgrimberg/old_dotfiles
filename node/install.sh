@@ -19,7 +19,7 @@ echo "brew uninstall nodec..."
 brew uninstall node
 
 echo "brew install node without npm..."
-brew install node --without-npm
+i#brew install node --without-npm
 
 echo "setting prefix to .npmrc..."
 echo prefix=~/.npm-packages >> ~/.npmrc
@@ -35,27 +35,27 @@ export PATH="$HOME/.npm-packages/bin:$PATH"
 
 #install node modules
 echo "installing grunt..."
-sudo npm install -g grunt-cli
-sudo npm install -g grunt-init
+#sudo npm install -g grunt-cli
+#sudo npm install -g grunt-init
 
 echo "installing bower..."
-sudo npm install -g bower
+#sudo npm install -g bower
 
 echo "installing codeceptjs..."
-sudo npm install -g codeceptjs
+#sudo npm install -g codeceptjs
 
 echo "installing cucumber..."
-sudo npm install -g cucumber
+#sudo npm install -g cucumber
 
 echo "installing jshint..."
-sudo npm install -g jshint
+#sudo npm install -g jshint
 
 echo "installing mocha..."
-sudo npm install -g mocha
+#sudo npm install -g mocha
 
 echo "installing selenium webdriver..."
-sudo npm install -g selenium-webdriver
+#sudo npm install -g selenium-webdriver
 
 echo "installing webdriverio..."
-sudo npm install -g webdriverio
+#sudo npm install -g webdriverio
 

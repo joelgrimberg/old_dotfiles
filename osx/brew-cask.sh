@@ -16,6 +16,7 @@ brew cask install intellij-idea-ce
 
 brew cask install wacom-intuos-tablet
 
+brew cask install java
 brew cask install toggldesktop
 brew cask install evernote
 brew cask install slack
