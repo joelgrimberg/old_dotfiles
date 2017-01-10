@@ -50,6 +50,7 @@ brew tap homebrew/php
 brew install php55 --with-gmp
 
 # Dev tools
+brew install mongodb
 brew install ruby
 brew install rbenv
 brew install bash
