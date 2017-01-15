@@ -59,6 +59,7 @@ brew install docker-compose
 brew install docker-machine
 brew install elasticsearch
 brew install nvm
+brew install ngrep
 brew install git
 brew install poppler
 brew install postgis
