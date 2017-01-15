@@ -32,6 +32,8 @@ alias g="git"
 alias h="history"
 alias j="jobs"
 alias df="df -h"
+alias ng="npm list -g --depth=0 2>/dev/null"
+alias fkill="sudo fkill"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
@@ -82,7 +84,7 @@ alias ips="ifconfig -a | grep -o 'inet6\? \(addr:\)\?\s\?\(\(\([0-9]\+\.\)\{3\}[
 
 
 # Battery Time
-alias battery-time="pmset -g batt | egrep '([0-9]+\%).*' -o --colour=auto | cut -f3 -d';'"
+alias battery="pmset -g batt | egrep '([0-9]+\%).*' -o --colour=auto | cut -f1 -d';'"
 
 # Battery Percentage
 #alias battery="pmset -g batt | egrep "([0-9]+\%).*" -o --colour=auto | cut -f1 -d';'"
