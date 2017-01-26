@@ -9,7 +9,7 @@ source .dotfiles_env
 # source $DOTFILES/bin/install.sh
 source $DOTFILES/homebrew/install.sh
 # source $DOTFILES/zsh/install.sh
- source $DOTFILES/osx/init.sh
+source $DOTFILES/osx/init.sh
 # source $DOTFILES/php/install.sh
 # source $DOTFILES/fonts/install.sh
 # source $DOTFILES/apps/install.sh
