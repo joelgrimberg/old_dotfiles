@@ -11,6 +11,8 @@ alias hosts='sudo $EDITOR /etc/hosts'
 alias music='open -a "Itunes"'
 alias ports='sudo lsof -iTCP -sTCP:LISTEN -n -P'
 alias stop='kill -s kill -9'
+alias dotfiles='cd .dotfiles'
+alias editbrew='vi ~/.dotfiles/osx/brew.sh '
 
 #node shortcuts
 alias nl="npm list -g  --depth=0 2>/dev/null"
