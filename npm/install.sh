@@ -13,3 +13,4 @@ sudo npm install -g grunt
 sudo npm install -g mocha
 sudo npm install -g envs
 npm install --save app-server
+npm install --global fkill-cli

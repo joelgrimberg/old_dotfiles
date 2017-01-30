@@ -16,7 +16,7 @@ brew cask install vmware-horizon-client
 brew cask install intellij-idea-ce
 
 brew cask install wacom-intuos-tablet
-
+brew cask install zeplin
 brew cask install yed
 brew cask install java
 brew cask install toggldesktop
