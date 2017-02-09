@@ -14,6 +14,9 @@ alias stop='kill -s kill -9'
 alias dotfiles='cd .dotfiles'
 alias editbrew='vi ~/.dotfiles/osx/brew.sh '
 
+alias close_ssh="sudo launchctl unload /System/Library/LaunchDaemons/ssh.plist"
+alias open_ssh="sudo launchctl load -w /System/Library/LaunchDaemons/ssh.plist"
+
 #node shortcuts
 alias nl="npm list -g  --depth=0 2>/dev/null"
 
