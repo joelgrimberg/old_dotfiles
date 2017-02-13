@@ -50,6 +50,7 @@ brew tap homebrew/php
 brew install php55 --with-gmp
 
 # Dev tools
+brew install z
 brew install wget --with-libress
 brew install nmap
 brew install mongodb
