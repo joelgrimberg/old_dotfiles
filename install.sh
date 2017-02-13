@@ -15,12 +15,13 @@ source $DOTFILES/osx/init.sh
 # source $DOTFILES/apps/install.sh
 
 # Load ZSH as our environment
-# env zsh
+ env zsh
 
 source $DOTFILES/osx/brew.sh
 source $DOTFILES/osx/brew-cask.sh
 source $DOTFILES/node/install.sh
 source $DOTFILES/system/symlinks.sh
+source $DOTFILES/osx/zsh.sh
 
 #load bashrc / env / aliases
 source $DOTFILES/.env
