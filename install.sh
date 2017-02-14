@@ -14,9 +14,6 @@ source $DOTFILES/osx/init.sh
 # source $DOTFILES/fonts/install.sh
 # source $DOTFILES/apps/install.sh
 
-# Load ZSH as our environment
- env zsh
-
 source $DOTFILES/osx/brew.sh
 source $DOTFILES/osx/brew-cask.sh
 source $DOTFILES/node/install.sh
@@ -28,3 +25,7 @@ source $DOTFILES/.env
 source $DOTFILES/.aliases
 source $DOTFILES/runcom/.bash_profile
 source $DOTFILES/runcom/.functions
+
+
+# Load ZSH as our environment
+ source .zshrc
