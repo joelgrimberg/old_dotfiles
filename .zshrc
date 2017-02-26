@@ -90,3 +90,5 @@ source $ZSH/oh-my-zsh.sh
 # Add .aliases
 source ~/.dotfiles/.aliases
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
+eval "$(grunt --completion=zsh)"

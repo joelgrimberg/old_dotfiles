@@ -37,7 +37,7 @@ alias g="git"
 alias h="history"
 alias j="jobs"
 alias df="df -h"
-alias ng="npm list -g --depth=0 2>/dev/null"
+alias nl="npm list -g --depth=0 2>/dev/null"
 alias fkill="sudo fkill"
 
 # Detect which `ls` flavor is in use

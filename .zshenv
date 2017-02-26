@@ -2,5 +2,5 @@ PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/joel/bin:/Users/joel/.n
 
 alias rvm-prompt=$HOME/.rvm/bin/rvm-prompt
 source ~/.dotfiles/.env
-source ~/.dotfiles/.aliases
+#source ~/.dotfiles/.aliases
 source ~/.dotfiles/.profile

@@ -7,11 +7,12 @@ echo "Setting up your NPM Modules..."
 # Ask for the administrator password upfront
 sudo -v
 
-sudo npm install -g webdriverio
-sudo npm install -g codeceptjs
-sudo npm install -g grunt
-sudo npm install -g mocha
-sudo npm install -g envs
+npm install -g webdriverio
+npm install -g codeceptjs
+npm install -g grunt
+npm install -g mocha
+npm install -g envs
+npm install -g bower
 npm install --save app-server
 npm install --global fkill-cli
 npm install --global trash
