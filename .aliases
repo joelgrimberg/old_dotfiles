@@ -13,6 +13,8 @@ alias ports='sudo lsof -iTCP -sTCP:LISTEN -n -P'
 alias stop='kill -s kill -9'
 alias dotfiles='cd .dotfiles'
 alias editbrew='vi ~/.dotfiles/osx/brew.sh '
+alias network='networksetup -switchtolocation '
+
 
 alias close_ssh="sudo launchctl unload /System/Library/LaunchDaemons/ssh.plist"
 alias open_ssh="sudo launchctl load -w /System/Library/LaunchDaemons/ssh.plist"
