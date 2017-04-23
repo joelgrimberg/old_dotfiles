@@ -14,6 +14,7 @@ brew cask install mamp
 brew cask install vmware-fusion
 brew cask install vmware-horizon-client
 brew cask install intellij-idea-ce
+brew cask install gitkraken
 
 brew cask install wacom-intuos-tablet
 brew cask install zeplin
