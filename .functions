@@ -1,0 +1,6 @@
+function ccc() {
+nl | grep -E 'webdriverio|codeceptjs|npm@4';
+name= sw_vers -productName
+version= sw_vers -productVersion
+echo $name $version;
+}

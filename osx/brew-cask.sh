@@ -31,7 +31,6 @@ brew cask install dropbox
 brew cask install daisydisk
 brew cask install flux
 brew cask install whatsapp
-brew cask install mindnode-pro
 brew cask install vlc
 brew cask install cyberduck
 brew cask install github-desktop
@@ -41,7 +40,6 @@ brew cask install security-growler
 brew cask install ostiarius
 brew cask install lockdown
 brew cask install kextviewr
-brew cask install tunnelbear
 brew cask install gas-mask
 brew cask install opendns-updater
 brew cask install malwarebytes-anti-malware
