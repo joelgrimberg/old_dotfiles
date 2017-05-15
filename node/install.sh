@@ -19,7 +19,7 @@ echo "brew uninstall nodec..."
 brew uninstall node
 
 echo "brew install node without npm..."
-i#brew install node --without-npm
+#brew install node --without-npm
 
 echo "setting prefix to .npmrc..."
 echo prefix=~/.npm-packages >> ~/.npmrc
@@ -37,6 +37,9 @@ export PATH="$HOME/.npm-packages/bin:$PATH"
 echo "installing grunt..."
 #sudo npm install -g grunt-cli
 #sudo npm install -g grunt-init
+
+echo "installing nodemon"
+
 
 echo "installing bower..."
 #sudo npm install -g bower
