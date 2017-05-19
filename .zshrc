@@ -52,7 +52,7 @@ ZSH_THEME="random"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 # plugins=(git)
-plugins=(git extract colored-man cloudapp colorize github jira vagrant virtualenv pip python brew osx zsh-syntax-highlighting)
+plugins=(git extract colored-man cloudapp colorize github jira vagrant virtualenv pip python brew osx zsh-syntax-highlighting vscode)
 
 source $ZSH/oh-my-zsh.sh
 
