@@ -19,3 +19,4 @@ npm install --global trash
 npm install --global trash-cli
 npm install -g mean-cli
 npm install -g nodemon
+npm install -g gulp-cli
