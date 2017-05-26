@@ -50,6 +50,7 @@ brew tap homebrew/php
 brew install php55 --with-gmp
 
 # Dev tools
+brew install kubectl
 brew install tmux
 brew install yarn
 brew install z
