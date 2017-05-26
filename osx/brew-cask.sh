@@ -16,6 +16,7 @@ brew cask install vmware-horizon-client
 brew cask install intellij-idea-ce
 brew cask install gitkraken
 
+brew cask install minikube
 brew cask install wacom-intuos-tablet
 brew cask install zeplin
 brew cask install yed
