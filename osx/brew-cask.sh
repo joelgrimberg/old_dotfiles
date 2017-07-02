@@ -48,3 +48,4 @@ brew cask install malwarebytes-anti-malware
 brew cask install namebench
 brew cask install macdown
 brew cask install sourcetree
+brew cask install aerial
