@@ -1,11 +1,16 @@
 #!/usr/bin/env bash
 
+brew cask install visual-studio-code
+brew cask install android-studio
+brew cask install appium
+
 ##browsers
 brew cask install firefoxdeveloperedition
 brew cask install firefox
 brew cask install safari-technology-preview
 brew cask install google-chrome
 brew cask install google-chrome-canary
+brew cask install brave
 
 ##tools
 brew cask install alfred
@@ -15,8 +20,12 @@ brew cask install vmware-fusion
 brew cask install vmware-horizon-client
 brew cask install intellij-idea-ce
 brew cask install gitkraken
+brew cask install colloquy
+brew cask install docker
+brew cask install docker-toolbox
 
 brew cask install minikube
+brew cask install kitematic
 brew cask install wacom-intuos-tablet
 brew cask install zeplin
 brew cask install yed
@@ -49,3 +58,4 @@ brew cask install namebench
 brew cask install macdown
 brew cask install sourcetree
 brew cask install aerial
+brew cask install google-drive
