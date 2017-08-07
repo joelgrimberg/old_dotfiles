@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+brew cask install vagrant
+brew cask install atom
+brew cask install coconutbattery
+brew cask install applepi-baker
 brew cask install visual-studio-code
 brew cask install android-studio
 brew cask install appium
