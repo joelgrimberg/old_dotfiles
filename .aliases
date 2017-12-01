@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # Custom
+alias gitlog='git log --pretty=format:"%h : %s" --graph'
 alias slt='open -a "Sublime Text 2"'
 alias atom='open -a "Atom"'
 alias spotify="osascript ~/code/SpotifyControl/SpotifyControl.scpt"

@@ -14,9 +14,9 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 echo "General UI / UX"
 
 # Set computer name (as done via System Preferences → Sharing)
-sudo scutil --set ComputerName "MAC0515445"
-sudo scutil --set HostName "MAC0515445"
-sudo scutil --set LocalHostName "MAC0515445"
+sudo scutil --set ComputerName "MacOS"
+sudo scutil --set HostName "MacOS"
+sudo scutil --set LocalHostName "MacOS"
 #sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "0x6D746873"
 
 # Energy settings for all power supplies
@@ -203,7 +203,7 @@ defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 echo "Screen"
 
 # Require password immediately after sleep or screen saver begins
-defaults write com.apple.screensaver askForPassword -int 1
+defaults write com.apple.screensaver askForPassword -int 0
 defaults write com.apple.screensaver askForPasswordDelay -int 0
 
 # Screensaver: iLifeSlideshows - starts after 120 seconds
