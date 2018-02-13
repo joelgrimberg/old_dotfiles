@@ -30,3 +30,21 @@ extract() {
      echo "'$1' is not a valid file to extract"
   fi
 }
+
+####### DOCKER Functions ##########
+function dcc() {
+echo "... Docker Stopping Containers ... "
+docker stop $(docker ps -a -q)
+
+echo "... Docker Removing Containers ..."
+docker rm $(docker ps -a -q)
+}
+
+function dci() {
+echo "... Docker Stopping Containers ..."
+docker stop $(docker ps -a -q)
+echo "... Docker Removing Containers ..."
+docker rm $(docker ps -a -q)
+echo "... Docker Removing Images ..."
+docker rmi $(docker images -a -q)
+}
