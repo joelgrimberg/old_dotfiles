@@ -19,6 +19,7 @@ source $DOTFILES/osx/brew-cask.sh
 source $DOTFILES/node/install.sh
 source $DOTFILES/system/symlinks.sh
 source $DOTFILES/osx/zsh.sh
+source $DOTFILES/osx/pip.sh
 
 #load bashrc / env / aliases
 source $DOTFILES/.env

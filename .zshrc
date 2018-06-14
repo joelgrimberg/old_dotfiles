@@ -11,6 +11,7 @@ source '/Users/joel/code/google-cloud-sdk/path.zsh.inc'
 autoload -U compinit compdef
 compinit
 source '/Users/joel/Code/google-cloud-sdk/completion.zsh.inc'
+source /Users/joel/Library/Python/3.6/bin/aws_zsh_completer.sh
 
  #Path to your oh-my-zsh installation.
   export ZSH=/Users/joel/.oh-my-zsh
@@ -108,8 +109,6 @@ export NVM_DIR="~/.nvm"
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="/usr/local/sbin:$PATH"
 
-
-
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
@@ -125,3 +124,4 @@ export PATH="/Users/joel/.rvm/gems/ruby-2.5.0/bin:$PATH"
 export PATH="$PATH:$HOME/.rvm/bin"
 
 source $(rvm 2.5.0 do rvm env --path)
+export PATH="$PATH:~/.venv/bin"
