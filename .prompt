@@ -1,3 +1,5 @@
+echo 'loading ~/.dotfiles/.prompt...'
+
 ## Prompt
 
 _bash_prompt_config() {

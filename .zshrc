@@ -1,3 +1,6 @@
+#!/usr/bin/sh
+echo 'loading ~/.dotfiles/.zshrc...'
+
 # If you come from bash you might have to change your $PATH.
 export M2_HOME=/usr/local/Cellar/maven/3.5.0/libexec
 export M2=$M2_HOME/bin
@@ -7,7 +10,7 @@ export PATH=$HOME/Code/google-cloud-sdk/bin/:$PATH
 # The next line updates PATH for the Google Cloud SDK.
 source '/Users/joel/code/google-cloud-sdk/path.zsh.inc'
 
-# The next lines enables bash completion in Zsh for gcloud. 
+# The next lines enables bash completion in Zsh for gcloud.
 autoload -U compinit compdef
 compinit
 source '/Users/joel/Code/google-cloud-sdk/completion.zsh.inc'
@@ -125,3 +128,4 @@ export PATH="$PATH:$HOME/.rvm/bin"
 
 source $(rvm 2.5.0 do rvm env --path)
 export PATH="$PATH:~/.venv/bin"
+

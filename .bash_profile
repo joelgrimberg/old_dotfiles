@@ -1,3 +1,4 @@
+echo 'loading ~/.dotfiles/.bash_profile...'
 #PATH
 PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:$HOME/bin:/Users/joel/.npm-packages/bin:$PATH
 

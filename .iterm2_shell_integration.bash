@@ -1,4 +1,7 @@
 #!/bin/bash
+echo 'loading ~/.dotfiles/.iterm2_shell_integration.bash...'
+
+
 # This is based on "preexec.bash" but is customized for iTerm2.
 
 # Note: this module requires 2 bash features which you must not otherwise be

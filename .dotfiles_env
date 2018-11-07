@@ -1,3 +1,4 @@
+echo 'loading ~/.dotfiles/.dotfiles_env...'
 # Paths
 export DOTFILES="$HOME/.dotfiles"
 # export ZSH="$HOME/.oh-my-zsh"
